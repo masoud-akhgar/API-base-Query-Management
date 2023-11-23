@@ -1,4 +1,4 @@
-# Cloud Base Project
+# API-based Query Management
 A Cloud Project using Django, sqlite3 file as the database, MVP model, Postman.
 
 This project is completely based on Django, so it is not provided any UI design.
