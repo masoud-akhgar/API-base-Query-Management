@@ -23,7 +23,7 @@ feel free to work with Postman
 
 python manage.py createsuperuser didn't work, It must be changed to python manage.py createsuperuser --database=users_db
 
-#convert CSV to Sqlite
+# Convert CSV to Sqlite
 sqlite3 db.sqlite3
 .mode csv
 .import vgsales.csv app_vgsales
