@@ -20,3 +20,5 @@ http://127.0.0.1:8000/
 
 go to /sign up, and then /gettoken,
 feel free to work with Postman
+
+python manage.py createsuperuser didn't work, It must be changed to python manage.py createsuperuser --database=users_db
