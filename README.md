@@ -28,4 +28,4 @@ sqlite3 db.sqlite3
 .mode csv
 .import vgsales.csv app_vgsales
 
-# Docker, yml and json files are paste in the main folder to be accesible
+# Docker, yml and json files are pasted in the main folder to be accesible
