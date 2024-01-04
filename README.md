@@ -22,3 +22,8 @@ go to /sign up, and then /gettoken,
 feel free to work with Postman
 
 python manage.py createsuperuser didn't work, It must be changed to python manage.py createsuperuser --database=users_db
+
+**convert CSV to Sqlite
+sqlite3 db.sqlite3
+.mode csv
+.import vgsales.csv app_vgsales
