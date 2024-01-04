@@ -7,8 +7,8 @@ ENV PYTHONUNBUFFERED=1
 ENV DJANGO_SUPERUSER_PASSWORD=admin
 # RUN apk add g++ jpeg-dev zlib-dev libjpeg make
 # RUN apk add --update sqlite && rm -rf /var/cache/apk/*
-RUN mkdir /app
-WORKDIR /app
+RUN mkdir /cloud_project
+WORKDIR /cloud_project
 
 RUN pip3 install --upgrade pip
 RUN pip3 install django djangorestframework numpy matplotlib pytz pandas 
