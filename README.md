@@ -18,6 +18,9 @@ python manage.py runserver
 Then, open the link below :
 http://127.0.0.1:8000/
 
+modular implementation: like: >>> Entry.objects.filter(pub_date__lte="2006-01-01")
+(equals to SELECT * FROM blog_entry WHERE pub_date <= '2006-01-01';)
+
 go to /sign up, and then /gettoken,
 feel free to work with Postman
 
